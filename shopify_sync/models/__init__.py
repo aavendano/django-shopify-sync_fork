@@ -4,6 +4,9 @@ from .collect import Collect  # NOQA
 from .custom_collection import CustomCollection  # NOQA
 from .customer import Customer  # NOQA
 from .image import Image  # NOQA
+from .inventory_item import InventoryItem  # NOQA
+from .inventory_level import InventoryLevel  # NOQA
+from .location import Location  # NOQA
 from .line_item import LineItem  # NOQA
 from .metafield import Metafield  # NOQA
 from .option import Option  # NOQA

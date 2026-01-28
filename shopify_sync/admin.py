@@ -7,6 +7,9 @@ from shopify_sync.models.__init__ import (
     CustomCollection,
     Customer,
     Image,
+    InventoryItem,
+    InventoryLevel,
+    Location,
     LineItem,
     Metafield,
     Option,
@@ -47,6 +50,9 @@ admin.site.register(CarrierService)
 admin.site.register(Collect)
 admin.site.register(CustomCollection)
 admin.site.register(Image)
+admin.site.register(InventoryItem)
+admin.site.register(InventoryLevel)
+admin.site.register(Location)
 admin.site.register(LineItem)
 admin.site.register(Metafield)
 admin.site.register(Option)
